@@ -40,6 +40,7 @@ Just like the original Fast AutoAugment, we search the augmentation policies tha
 
 #### V1.XLARGE
 * experiment environment: [BrainCloud][] V1.XLARGE Type (V100 1GPU, 14CPU, 122GB)
+
 | metrics | Munster |  Chucky |   Pedro |   Decal |  Hammer |
 |:-------:|--------:|--------:|--------:|--------:|--------:|
 | ALC     |  0.9818 |  0.8633 |  0.8300 |  0.8935 |  0.8764 |
@@ -48,6 +49,7 @@ Just like the original Fast AutoAugment, we search the augmentation policies tha
 
 #### P1.XLARGE
 * experiment environment: [BrainCloud][] P1.XLARGE Type (P40 1GPU, 6CPU, 61GB)
+
 | metrics | Munster |  Chucky |   Pedro |   Decal |  Hammer |
 |:-------:|--------:|--------:|--------:|--------:|--------:|
 | ALC     |  0.9440 |  0.7835 |  0.7366 |  0.8353 |  0.8286 |
@@ -56,6 +58,7 @@ Just like the original Fast AutoAugment, we search the augmentation policies tha
 
 ### Private
 * experiment environment: [CodaLab](https://autodl.lri.fr/) (UNKNOWN)
+
 | metrics | beatriz | Caucase | Hippoc. |  Saturn | ukulele |
 |:-------:|--------:|--------:|--------:|--------:|--------:|
 | ALC     |  0.6756 |  0.7359 |  0.7744 |  0.8309 |  0.9075 |
