@@ -76,21 +76,21 @@ As Fast AutoAugment, we search the augmentation policies that match the density 
 * base docker environment: https://hub.docker.com/r/evariste/autodl
 
 * pre requirements
-```
-apt update
-apt install python3-tk
+```bash
+$ apt update
+$ apt install python3-tk
 ```
 
 * clone and init. the repository
 ```bash
-$ git clone https://github.com/kakaobrain/autocv2019 && cd autocv2019
+$ git clone https://github.com/kakaobrain/autoCLINT.git && cd autoCLINT
 $ # 3rd parties libarary
 $ git submodule init
 $ git submodule update
 $ # download pretrained models
 $ wget https://download.pytorch.org/models/resnet18-5c106cde.pth -O ./models/resnet18-5c106cde.pth
 $ # download public datasets
-$ cd autodl; python download_public_datasets.py; cd ..
+$ cd autodl && python download_public_datasets.py && cd ..
 ```
 
 * run public datasets
