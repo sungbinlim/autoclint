@@ -20,7 +20,7 @@ We employ a network transfer strategy and implement a light version of [Fast Aut
 
 ### Network Transfer
 
-The [AutoCV Challenges][] are given limited memory and computational resources. Thus, we considered a small size of architecture that could use the pre-trained models that were transferred.
+The [AutoCV Challenge][]s are given limited memory and computational resources. Thus, we considered a small size of architecture that could use the pre-trained models that were transferred.
 
 We have discovered the optimal hyperparameters and architectures to get the best performance in five minutes from five public data sets (Munster, Chuckey, Pedro, Decal and Hammer). In this process, no data augmentation is used.
 
@@ -34,11 +34,11 @@ We automatically adapt these parameters to the median size of each dataset, so t
 
 ### [Fast AutoAugment][]
 
-Fast AutoAugment learns augmentation policies using a more efficient search strategy based on density matching. Ideally, [Fast AutoAugment][] should be performed automatically, allowing the training data to adapt to test data.
+Fast AutoAugment learns augmentation policies using a more efficient search strategy based on density matching. Ideally, Fast AutoAugment should be performed automatically, allowing the training data to adapt to test data.
 
 We modify the search space and implement a light version of Fast AutoAugment algorithm to surmount the restricted computational resources.
 
-As [Fast AutoAugment][], we search the augmentation policies that match the density of train data with density of augmented valid data. We deviate from the original version in that we replace 5-fold with single-fold search and use random search (within subset of searched policy in original) instead of TPE algorithm.
+As Fast AutoAugment, we search the augmentation policies that match the density of train data with density of augmented valid data. We deviate from the original version in that we replace 5-fold with single-fold search and use random search (within subset of searched policy in original) instead of TPE algorithm.
 
 
 ## Results
@@ -148,4 +148,4 @@ If you apply this library to any project and research, please cite our code:
 [Ildoo Kim]: https://github.com/ildoonet
 [Woonhyuk Baek]: https://github.com/wbaek
 [Fast AutoAugment]: https://arxiv.org/abs/1905.00397
-[AutoCV Challenges]: https://autodl.lri.fr/competitions/118#home
+[AutoCV Challenge]: https://autodl.lri.fr/competitions/118#home
