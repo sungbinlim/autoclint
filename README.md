@@ -2,11 +2,14 @@
 [![KakaoBrain](https://img.shields.io/badge/kakao-brain-ffcd00.svg)](http://kakaobrain.com/)
 [![pytorch](https://img.shields.io/badge/pytorch-1.0.1-%23ee4c2c.svg)](https://pytorch.org/)
 [![tensorflow](https://img.shields.io/badge/tensorflow-1.13.1-ed6c20.svg)](https://www.tensorflow.org/)
-[![HitCount](http://hits.dwyl.io/kakaobrain/autoclint.svg)]()
+![autocv 1st place](https://img.shields.io/badge/autocv-1st_place-%235339D3.svg)
+![HitCount](http://hits.dwyl.io/kakaobrain/autoclint.svg)
 
 ## Automatic **C**omputationally **LI**ght **N**etwork **T**ransfer
 
 A specially designed light version of **[Fast AutoAugment][]** is implemented to adapt to **various tasks** under **limited resources**.
+
+This is our solution to [AutoCV Challenge][] in [NeurIPS AutoDL 2019 Challenges][]. We rank the **1st place** in the final leaderboard.
 
 
 ## [AutoCV Challenge][] Introduction
@@ -149,3 +152,4 @@ If you apply this library to any project and research, please cite our code:
 [Woonhyuk Baek]: https://github.com/wbaek
 [Fast AutoAugment]: https://arxiv.org/abs/1905.00397
 [AutoCV Challenge]: https://autodl.lri.fr/competitions/118#home
+[NeurIPS AutoDL 2019 Challenges]: https://autodl.chalearn.org/
