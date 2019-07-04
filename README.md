@@ -2,7 +2,7 @@
 [![KakaoBrain](https://img.shields.io/badge/kakao-brain-ffcd00.svg)](http://kakaobrain.com/)
 [![pytorch](https://img.shields.io/badge/pytorch-1.0.1-%23ee4c2c.svg)](https://pytorch.org/)
 [![tensorflow](https://img.shields.io/badge/tensorflow-1.13.1-ed6c20.svg)](https://www.tensorflow.org/)
-
+[![HitCount](http://hits.dwyl.io/kakaobrain/autoclint.svg)]()
 
 ## Automatic **C**omputationally **LI**ght **N**etwork **T**ransfer
 
